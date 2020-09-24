@@ -5,6 +5,8 @@ import (
 	"database/sql"
 	"errors"
 	"fmt"
+
+	_ "github.com/mattn/go-sqlite3" // driver for sql lite
 )
 
 // ErrInvalidUser is returned when an invalid user is passed to Select.
