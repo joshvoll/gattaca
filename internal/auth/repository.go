@@ -7,6 +7,7 @@ import (
 	"math/rand"
 	"time"
 
+	_ "github.com/mattn/go-sqlite3" // driver
 	"github.com/pkg/errors"
 )
 
